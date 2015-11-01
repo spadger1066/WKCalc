@@ -347,9 +347,11 @@
 					};
 					DC3A115A1BE655AF003DA25C = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = W2L76H8G3Y;
 					};
 					DC3A11691BE655AF003DA25C = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = W2L76H8G3Y;
 					};
 				};
 			};
@@ -595,6 +597,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "WKCalc WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.technology.luminator.WKCalc.watchkitapp.watchkitextension;
@@ -610,6 +613,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "WKCalc WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.technology.luminator.WKCalc.watchkitapp.watchkitextension;
@@ -625,6 +629,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				IBSC_MODULE = WKCalc_WatchKit_Extension;
 				INFOPLIST_FILE = "WKCalc WatchKit App/Info.plist";
@@ -641,6 +646,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				IBSC_MODULE = WKCalc_WatchKit_Extension;
 				INFOPLIST_FILE = "WKCalc WatchKit App/Info.plist";
