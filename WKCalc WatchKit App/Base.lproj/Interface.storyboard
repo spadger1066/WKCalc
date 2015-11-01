@@ -82,17 +82,23 @@
                                         <action selector="tapped3" destination="AgC-eL-Hgc" id="fBg-Bc-6Wx"/>
                                     </connections>
                                 </button>
-                                <button width="0.25" height="1" alignment="left" title="C" id="LSp-xS-KGB">
-                                    <color key="backgroundColor" red="1" green="0.40000000600000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <button width="0.25" height="1" alignment="left" title="*" id="AhW-is-4NR">
+                                    <color key="backgroundColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <connections>
-                                        <action selector="tappedClear" destination="AgC-eL-Hgc" id="nOB-2l-as8"/>
+                                        <action selector="tappedTimes" destination="AgC-eL-Hgc" id="1Oe-h9-Wyb"/>
                                     </connections>
                                 </button>
                             </items>
                         </group>
                         <group width="1" height="0.20000000000000001" alignment="left" id="9F0-cU-nCs">
                             <items>
-                                <button width="0.75" height="1" alignment="left" title="0" id="OZh-oa-nm7">
+                                <button width="0.25" height="1" alignment="left" title="C" id="LSp-xS-KGB">
+                                    <color key="backgroundColor" red="1" green="0.40000000600000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <connections>
+                                        <action selector="tappedClear" destination="AgC-eL-Hgc" id="nOB-2l-as8"/>
+                                    </connections>
+                                </button>
+                                <button width="0.25" height="1" alignment="left" title="0" id="OZh-oa-nm7">
                                     <connections>
                                         <action selector="tapped0" destination="AgC-eL-Hgc" id="kCV-bb-3Bp"/>
                                     </connections>
@@ -101,6 +107,12 @@
                                     <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                     <connections>
                                         <action selector="tappedEquals" destination="AgC-eL-Hgc" id="hZR-je-pUW"/>
+                                    </connections>
+                                </button>
+                                <button width="0.25" height="1" alignment="left" title="/" id="PGt-9S-Hf7">
+                                    <color key="backgroundColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <connections>
+                                        <action selector="tappedDivide" destination="AgC-eL-Hgc" id="w2B-Ws-iZa"/>
                                     </connections>
                                 </button>
                             </items>

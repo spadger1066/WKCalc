@@ -13,6 +13,8 @@ enum modes {
     case NOT_SET
     case ADDITION
     case SUBTRACTION
+    case MULTIPLICATION
+    case DIVISION
 }
 
 class InterfaceController: WKInterfaceController {
@@ -66,6 +68,14 @@ class InterfaceController: WKInterfaceController {
         changeMode(modes.SUBTRACTION)
     }
     
+    @IBAction func tappedTimes() {
+        changeMode(modes.MULTIPLICATION)
+    }
+    
+    @IBAction func tappedDivide() {
+        changeMode(modes.DIVISION)
+    }
+    
     func changeMode(newMode:modes) {
         if savedNum == 0 {
             return
@@ -89,11 +99,17 @@ class InterfaceController: WKInterfaceController {
         if currentMode == modes.NOT_SET || lastButtonWasMode {
             return
         }
-        if currentMode == modes.ADDITION {
+        switch currentMode {
+        case modes.ADDITION:
             savedNum += num
-        }
-        if currentMode == modes.SUBTRACTION {
+        case modes.SUBTRACTION:
             savedNum -= num
+        case modes.MULTIPLICATION:
+            savedNum *= num
+        case modes.DIVISION:
+            savedNum /= num
+        default:
+            savedNum = savedNum * 1
         }
         currentMode = modes.NOT_SET
         labelString = "\(savedNum)"
