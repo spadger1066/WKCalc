@@ -1,0 +1,780 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC3A11371BE655AF003DA25C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3A11361BE655AF003DA25C /* AppDelegate.swift */; };
+		DC3A11391BE655AF003DA25C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3A11381BE655AF003DA25C /* ViewController.swift */; };
+		DC3A113C1BE655AF003DA25C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC3A113A1BE655AF003DA25C /* Main.storyboard */; };
+		DC3A113E1BE655AF003DA25C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC3A113D1BE655AF003DA25C /* Assets.xcassets */; };
+		DC3A11411BE655AF003DA25C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC3A113F1BE655AF003DA25C /* LaunchScreen.storyboard */; };
+		DC3A114C1BE655AF003DA25C /* WKCalcTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3A114B1BE655AF003DA25C /* WKCalcTests.swift */; };
+		DC3A11571BE655AF003DA25C /* WKCalcUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3A11561BE655AF003DA25C /* WKCalcUITests.swift */; };
+		DC3A115C1BE655AF003DA25C /* WKCalc WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = DC3A115B1BE655AF003DA25C /* WKCalc WatchKit App.app */; };
+		DC3A11621BE655AF003DA25C /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC3A11601BE655AF003DA25C /* Interface.storyboard */; };
+		DC3A11641BE655AF003DA25C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC3A11631BE655AF003DA25C /* Assets.xcassets */; };
+		DC3A116B1BE655AF003DA25C /* WKCalc WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = DC3A116A1BE655AF003DA25C /* WKCalc WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DC3A11721BE655AF003DA25C /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3A11711BE655AF003DA25C /* InterfaceController.swift */; };
+		DC3A11741BE655AF003DA25C /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3A11731BE655AF003DA25C /* ExtensionDelegate.swift */; };
+		DC3A11761BE655AF003DA25C /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3A11751BE655AF003DA25C /* NotificationController.swift */; };
+		DC3A11781BE655AF003DA25C /* GlanceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3A11771BE655AF003DA25C /* GlanceController.swift */; };
+		DC3A117A1BE655AF003DA25C /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3A11791BE655AF003DA25C /* ComplicationController.swift */; };
+		DC3A117C1BE655AF003DA25C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC3A117B1BE655AF003DA25C /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC3A11481BE655AF003DA25C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC3A112B1BE655AF003DA25C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC3A11321BE655AF003DA25C;
+			remoteInfo = WKCalc;
+		};
+		DC3A11531BE655AF003DA25C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC3A112B1BE655AF003DA25C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC3A11321BE655AF003DA25C;
+			remoteInfo = WKCalc;
+		};
+		DC3A115D1BE655AF003DA25C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC3A112B1BE655AF003DA25C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC3A115A1BE655AF003DA25C;
+			remoteInfo = "WKCalc WatchKit App";
+		};
+		DC3A116C1BE655AF003DA25C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC3A112B1BE655AF003DA25C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC3A11691BE655AF003DA25C;
+			remoteInfo = "WKCalc WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DC3A11831BE655AF003DA25C /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				DC3A116B1BE655AF003DA25C /* WKCalc WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC3A11871BE655AF003DA25C /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				DC3A115C1BE655AF003DA25C /* WKCalc WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DC3A11331BE655AF003DA25C /* WKCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WKCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC3A11361BE655AF003DA25C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DC3A11381BE655AF003DA25C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DC3A113B1BE655AF003DA25C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC3A113D1BE655AF003DA25C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC3A11401BE655AF003DA25C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DC3A11421BE655AF003DA25C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC3A11471BE655AF003DA25C /* WKCalcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WKCalcTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC3A114B1BE655AF003DA25C /* WKCalcTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WKCalcTests.swift; sourceTree = "<group>"; };
+		DC3A114D1BE655AF003DA25C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC3A11521BE655AF003DA25C /* WKCalcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WKCalcUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC3A11561BE655AF003DA25C /* WKCalcUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WKCalcUITests.swift; sourceTree = "<group>"; };
+		DC3A11581BE655AF003DA25C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC3A115B1BE655AF003DA25C /* WKCalc WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WKCalc WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC3A11611BE655AF003DA25C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		DC3A11631BE655AF003DA25C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC3A11651BE655AF003DA25C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC3A116A1BE655AF003DA25C /* WKCalc WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "WKCalc WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC3A11701BE655AF003DA25C /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		DC3A11711BE655AF003DA25C /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		DC3A11731BE655AF003DA25C /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		DC3A11751BE655AF003DA25C /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		DC3A11771BE655AF003DA25C /* GlanceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlanceController.swift; sourceTree = "<group>"; };
+		DC3A11791BE655AF003DA25C /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		DC3A117B1BE655AF003DA25C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC3A117D1BE655AF003DA25C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC3A11301BE655AF003DA25C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC3A11441BE655AF003DA25C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC3A114F1BE655AF003DA25C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC3A11671BE655AF003DA25C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC3A112A1BE655AF003DA25C = {
+			isa = PBXGroup;
+			children = (
+				DC3A11351BE655AF003DA25C /* WKCalc */,
+				DC3A114A1BE655AF003DA25C /* WKCalcTests */,
+				DC3A11551BE655AF003DA25C /* WKCalcUITests */,
+				DC3A115F1BE655AF003DA25C /* WKCalc WatchKit App */,
+				DC3A116E1BE655AF003DA25C /* WKCalc WatchKit Extension */,
+				DC3A11341BE655AF003DA25C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC3A11341BE655AF003DA25C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC3A11331BE655AF003DA25C /* WKCalc.app */,
+				DC3A11471BE655AF003DA25C /* WKCalcTests.xctest */,
+				DC3A11521BE655AF003DA25C /* WKCalcUITests.xctest */,
+				DC3A115B1BE655AF003DA25C /* WKCalc WatchKit App.app */,
+				DC3A116A1BE655AF003DA25C /* WKCalc WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC3A11351BE655AF003DA25C /* WKCalc */ = {
+			isa = PBXGroup;
+			children = (
+				DC3A11361BE655AF003DA25C /* AppDelegate.swift */,
+				DC3A11381BE655AF003DA25C /* ViewController.swift */,
+				DC3A113A1BE655AF003DA25C /* Main.storyboard */,
+				DC3A113D1BE655AF003DA25C /* Assets.xcassets */,
+				DC3A113F1BE655AF003DA25C /* LaunchScreen.storyboard */,
+				DC3A11421BE655AF003DA25C /* Info.plist */,
+			);
+			path = WKCalc;
+			sourceTree = "<group>";
+		};
+		DC3A114A1BE655AF003DA25C /* WKCalcTests */ = {
+			isa = PBXGroup;
+			children = (
+				DC3A114B1BE655AF003DA25C /* WKCalcTests.swift */,
+				DC3A114D1BE655AF003DA25C /* Info.plist */,
+			);
+			path = WKCalcTests;
+			sourceTree = "<group>";
+		};
+		DC3A11551BE655AF003DA25C /* WKCalcUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DC3A11561BE655AF003DA25C /* WKCalcUITests.swift */,
+				DC3A11581BE655AF003DA25C /* Info.plist */,
+			);
+			path = WKCalcUITests;
+			sourceTree = "<group>";
+		};
+		DC3A115F1BE655AF003DA25C /* WKCalc WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				DC3A11601BE655AF003DA25C /* Interface.storyboard */,
+				DC3A11631BE655AF003DA25C /* Assets.xcassets */,
+				DC3A11651BE655AF003DA25C /* Info.plist */,
+			);
+			path = "WKCalc WatchKit App";
+			sourceTree = "<group>";
+		};
+		DC3A116E1BE655AF003DA25C /* WKCalc WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				DC3A11711BE655AF003DA25C /* InterfaceController.swift */,
+				DC3A11731BE655AF003DA25C /* ExtensionDelegate.swift */,
+				DC3A11751BE655AF003DA25C /* NotificationController.swift */,
+				DC3A11771BE655AF003DA25C /* GlanceController.swift */,
+				DC3A11791BE655AF003DA25C /* ComplicationController.swift */,
+				DC3A117B1BE655AF003DA25C /* Assets.xcassets */,
+				DC3A117D1BE655AF003DA25C /* Info.plist */,
+				DC3A116F1BE655AF003DA25C /* Supporting Files */,
+			);
+			path = "WKCalc WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		DC3A116F1BE655AF003DA25C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC3A11701BE655AF003DA25C /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC3A11321BE655AF003DA25C /* WKCalc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC3A11881BE655AF003DA25C /* Build configuration list for PBXNativeTarget "WKCalc" */;
+			buildPhases = (
+				DC3A112F1BE655AF003DA25C /* Sources */,
+				DC3A11301BE655AF003DA25C /* Frameworks */,
+				DC3A11311BE655AF003DA25C /* Resources */,
+				DC3A11871BE655AF003DA25C /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC3A115E1BE655AF003DA25C /* PBXTargetDependency */,
+			);
+			name = WKCalc;
+			productName = WKCalc;
+			productReference = DC3A11331BE655AF003DA25C /* WKCalc.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DC3A11461BE655AF003DA25C /* WKCalcTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC3A118B1BE655AF003DA25C /* Build configuration list for PBXNativeTarget "WKCalcTests" */;
+			buildPhases = (
+				DC3A11431BE655AF003DA25C /* Sources */,
+				DC3A11441BE655AF003DA25C /* Frameworks */,
+				DC3A11451BE655AF003DA25C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC3A11491BE655AF003DA25C /* PBXTargetDependency */,
+			);
+			name = WKCalcTests;
+			productName = WKCalcTests;
+			productReference = DC3A11471BE655AF003DA25C /* WKCalcTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DC3A11511BE655AF003DA25C /* WKCalcUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC3A118E1BE655AF003DA25C /* Build configuration list for PBXNativeTarget "WKCalcUITests" */;
+			buildPhases = (
+				DC3A114E1BE655AF003DA25C /* Sources */,
+				DC3A114F1BE655AF003DA25C /* Frameworks */,
+				DC3A11501BE655AF003DA25C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC3A11541BE655AF003DA25C /* PBXTargetDependency */,
+			);
+			name = WKCalcUITests;
+			productName = WKCalcUITests;
+			productReference = DC3A11521BE655AF003DA25C /* WKCalcUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		DC3A115A1BE655AF003DA25C /* WKCalc WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC3A11841BE655AF003DA25C /* Build configuration list for PBXNativeTarget "WKCalc WatchKit App" */;
+			buildPhases = (
+				DC3A11591BE655AF003DA25C /* Resources */,
+				DC3A11831BE655AF003DA25C /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC3A116D1BE655AF003DA25C /* PBXTargetDependency */,
+			);
+			name = "WKCalc WatchKit App";
+			productName = "WKCalc WatchKit App";
+			productReference = DC3A115B1BE655AF003DA25C /* WKCalc WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		DC3A11691BE655AF003DA25C /* WKCalc WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC3A11801BE655AF003DA25C /* Build configuration list for PBXNativeTarget "WKCalc WatchKit Extension" */;
+			buildPhases = (
+				DC3A11661BE655AF003DA25C /* Sources */,
+				DC3A11671BE655AF003DA25C /* Frameworks */,
+				DC3A11681BE655AF003DA25C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WKCalc WatchKit Extension";
+			productName = "WKCalc WatchKit Extension";
+			productReference = DC3A116A1BE655AF003DA25C /* WKCalc WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC3A112B1BE655AF003DA25C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = lumiator.technology.com;
+				TargetAttributes = {
+					DC3A11321BE655AF003DA25C = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					DC3A11461BE655AF003DA25C = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = DC3A11321BE655AF003DA25C;
+					};
+					DC3A11511BE655AF003DA25C = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = DC3A11321BE655AF003DA25C;
+					};
+					DC3A115A1BE655AF003DA25C = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					DC3A11691BE655AF003DA25C = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = DC3A112E1BE655AF003DA25C /* Build configuration list for PBXProject "WKCalc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC3A112A1BE655AF003DA25C;
+			productRefGroup = DC3A11341BE655AF003DA25C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC3A11321BE655AF003DA25C /* WKCalc */,
+				DC3A11461BE655AF003DA25C /* WKCalcTests */,
+				DC3A11511BE655AF003DA25C /* WKCalcUITests */,
+				DC3A115A1BE655AF003DA25C /* WKCalc WatchKit App */,
+				DC3A11691BE655AF003DA25C /* WKCalc WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC3A11311BE655AF003DA25C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC3A11411BE655AF003DA25C /* LaunchScreen.storyboard in Resources */,
+				DC3A113E1BE655AF003DA25C /* Assets.xcassets in Resources */,
+				DC3A113C1BE655AF003DA25C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC3A11451BE655AF003DA25C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC3A11501BE655AF003DA25C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC3A11591BE655AF003DA25C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC3A11641BE655AF003DA25C /* Assets.xcassets in Resources */,
+				DC3A11621BE655AF003DA25C /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC3A11681BE655AF003DA25C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC3A117C1BE655AF003DA25C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC3A112F1BE655AF003DA25C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC3A11391BE655AF003DA25C /* ViewController.swift in Sources */,
+				DC3A11371BE655AF003DA25C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC3A11431BE655AF003DA25C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC3A114C1BE655AF003DA25C /* WKCalcTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC3A114E1BE655AF003DA25C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC3A11571BE655AF003DA25C /* WKCalcUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC3A11661BE655AF003DA25C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC3A11761BE655AF003DA25C /* NotificationController.swift in Sources */,
+				DC3A11741BE655AF003DA25C /* ExtensionDelegate.swift in Sources */,
+				DC3A117A1BE655AF003DA25C /* ComplicationController.swift in Sources */,
+				DC3A11721BE655AF003DA25C /* InterfaceController.swift in Sources */,
+				DC3A11781BE655AF003DA25C /* GlanceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC3A11491BE655AF003DA25C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC3A11321BE655AF003DA25C /* WKCalc */;
+			targetProxy = DC3A11481BE655AF003DA25C /* PBXContainerItemProxy */;
+		};
+		DC3A11541BE655AF003DA25C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC3A11321BE655AF003DA25C /* WKCalc */;
+			targetProxy = DC3A11531BE655AF003DA25C /* PBXContainerItemProxy */;
+		};
+		DC3A115E1BE655AF003DA25C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC3A115A1BE655AF003DA25C /* WKCalc WatchKit App */;
+			targetProxy = DC3A115D1BE655AF003DA25C /* PBXContainerItemProxy */;
+		};
+		DC3A116D1BE655AF003DA25C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC3A11691BE655AF003DA25C /* WKCalc WatchKit Extension */;
+			targetProxy = DC3A116C1BE655AF003DA25C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DC3A113A1BE655AF003DA25C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC3A113B1BE655AF003DA25C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DC3A113F1BE655AF003DA25C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC3A11401BE655AF003DA25C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		DC3A11601BE655AF003DA25C /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC3A11611BE655AF003DA25C /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC3A117E1BE655AF003DA25C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DC3A117F1BE655AF003DA25C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC3A11811BE655AF003DA25C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				INFOPLIST_FILE = "WKCalc WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.technology.luminator.WKCalc.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		DC3A11821BE655AF003DA25C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				INFOPLIST_FILE = "WKCalc WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.technology.luminator.WKCalc.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		DC3A11851BE655AF003DA25C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = WKCalc_WatchKit_Extension;
+				INFOPLIST_FILE = "WKCalc WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.technology.luminator.WKCalc.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		DC3A11861BE655AF003DA25C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = WKCalc_WatchKit_Extension;
+				INFOPLIST_FILE = "WKCalc WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.technology.luminator.WKCalc.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		DC3A11891BE655AF003DA25C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WKCalc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.technology.luminator.WKCalc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DC3A118A1BE655AF003DA25C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WKCalc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.technology.luminator.WKCalc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DC3A118C1BE655AF003DA25C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WKCalcTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.technology.luminator.WKCalcTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WKCalc.app/WKCalc";
+			};
+			name = Debug;
+		};
+		DC3A118D1BE655AF003DA25C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WKCalcTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.technology.luminator.WKCalcTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WKCalc.app/WKCalc";
+			};
+			name = Release;
+		};
+		DC3A118F1BE655AF003DA25C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WKCalcUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.technology.luminator.WKCalcUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WKCalc;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		DC3A11901BE655AF003DA25C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WKCalcUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.technology.luminator.WKCalcUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WKCalc;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC3A112E1BE655AF003DA25C /* Build configuration list for PBXProject "WKCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC3A117E1BE655AF003DA25C /* Debug */,
+				DC3A117F1BE655AF003DA25C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC3A11801BE655AF003DA25C /* Build configuration list for PBXNativeTarget "WKCalc WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC3A11811BE655AF003DA25C /* Debug */,
+				DC3A11821BE655AF003DA25C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DC3A11841BE655AF003DA25C /* Build configuration list for PBXNativeTarget "WKCalc WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC3A11851BE655AF003DA25C /* Debug */,
+				DC3A11861BE655AF003DA25C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DC3A11881BE655AF003DA25C /* Build configuration list for PBXNativeTarget "WKCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC3A11891BE655AF003DA25C /* Debug */,
+				DC3A118A1BE655AF003DA25C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DC3A118B1BE655AF003DA25C /* Build configuration list for PBXNativeTarget "WKCalcTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC3A118C1BE655AF003DA25C /* Debug */,
+				DC3A118D1BE655AF003DA25C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DC3A118E1BE655AF003DA25C /* Build configuration list for PBXNativeTarget "WKCalcUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC3A118F1BE655AF003DA25C /* Debug */,
+				DC3A11901BE655AF003DA25C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC3A112B1BE655AF003DA25C /* Project object */;
+}
